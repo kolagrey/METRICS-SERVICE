@@ -14,6 +14,8 @@ $ git clone https://github.com/kolagrey/METRICS-SERVICE
 
 ```sh
 
+$ cd METRICS-SERVICE
+
 $ docker build -t metrics-service-image .
 
 $ docker run -d -p 6969:6969 --name metrics-service-container metrics-service-image
@@ -26,7 +28,9 @@ $ docker run -d -p 6969:6969 --name metrics-service-container metrics-service-im
 ### Install dependencies using
 
 ```sh
+
 $ cd METRICS-SERVICE
+
 $ npm install 
 
 ```
