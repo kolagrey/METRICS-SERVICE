@@ -1,0 +1,30 @@
+{
+  "name": "metric-service",
+  "version": "1.0.0",
+  "description": "An API Server for Metric Service",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "mocha"
+  },
+  "keywords": [
+    "ART"
+  ],
+  "author": "Kola Grey",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.19.0",
+    "cors": "2.8.5",
+    "dotenv": "8.1.0",
+    "express": "4.17.1",
+    "helmet": "3.21.0",
+    "joi": "14.3.1",
+    "moment": "2.24.0",
+    "nedb": "1.8.0"
+  },
+  "devDependencies": {
+    "chai-http": "4.3.0",
+    "chai": "4.2.0",
+    "mocha": "6.2.0"
+  }
+}
