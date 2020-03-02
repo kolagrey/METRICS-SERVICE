@@ -50,7 +50,7 @@ This will start the server at http://localhost:6969
 - [POST] http://localhost:6969/metric/:key --> Create new entry for provider key.
 ```sh
 
-    // Example body payload
+    // Example 1 body payload
 
     { 
         "value": 10
@@ -61,6 +61,8 @@ This will start the server at http://localhost:6969
     HTTP Status: 200
 
     {}
+
+    // Example 2 body payload
 
     { 
         "value": 30
